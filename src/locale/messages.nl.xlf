@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="19abb683d505ad4f5e0959c18e9310b8f7c55290" datatype="html">
+        <source>Français</source>
+        <target>Frans</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0183cd55409bbd9e55d946b1093f25b4e623727d" datatype="html">
+        <source>Anglais</source>
+        <target>Engels</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eed78103bc1c7eda122c689f663ab9230db30dd3" datatype="html">
+        <source>Nèerlandais</source>
+        <target>Nederlands</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78558ffd74d794a7571dcbe79a9aed5198c5b272" datatype="html">
+        <source>modal active</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="612391a4ae7b35752c0c4b1f643ea5700d9bfb3c" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{langue}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d975f9e1a7744f6a64dc50ad268d69ba91999ed" datatype="html">
+        <source>Liste des langues</source>
+        <target>Lijst van talen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63ba5c8bb4b8d1fcb763901b3f8dd3a2e701c422" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{langue.intitule}}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0b9bd351583fe84b0395ea04f85be16c9eb1863d" datatype="html">
+        <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Niveau parlé:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.parle}}"/> </source>
+        <target> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Spokeniveau:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.parle}}"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba8ab5f5723f63fe32ce140fda58033cf0845896" datatype="html">
+        <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Niveau écrit:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.ecrit}}"/>  </source>
+        <target> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Schrijfniveau:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.ecrit}}"/>  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b4eba1592bc19963bedbe42716b3142a7a5b57c" datatype="html">
+        <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Niveau compréhension:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.comprehension}}"/>  </source>
+        <target> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Begrijpingsniveau:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.comprehension}}"/>  </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7f3cb60d0f39a3cc6219f2109dbe4de6ffd6fcf" datatype="html">
+        <source>
+        <x id="START_TAG_DIV_1" ctype="x-div" equiv-text="&lt;div&gt;"/>
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/>
+            <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>Modifier<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+            <x id="START_TAG_BUTTON_1" ctype="x-button" equiv-text="&lt;button&gt;"/>Détail<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+            <x id="START_TAG_BUTTON_2" ctype="x-button" equiv-text="&lt;button&gt;"/>Supprimer<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+      </source>
+      <target>
+        <x id="START_TAG_DIV_1" ctype="x-div" equiv-text="&lt;div&gt;"/>
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/>
+            <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>Wijziging<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+            <x id="START_TAG_BUTTON_1" ctype="x-button" equiv-text="&lt;button&gt;"/>Detail<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+            <x id="START_TAG_BUTTON_2" ctype="x-button" equiv-text="&lt;button&gt;"/>Leverancier<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+      </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="43160fd76dc89e3bf2105eec4942ddeb0ca2eab2" datatype="html">
+        <source>Ajouter une langue</source>
+        <target>Een taal toevoegen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68cd64fc1e5ffefa81bd8cd4b2f90adec895f7dd" datatype="html">
+        <source> Choisir une langue * </source>
+        <target> Kies een taal * </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c868dc3d66edb2d49770b504071f6b46eff63179" datatype="html">
+        <source> Selectionner un élément </source>
+        <target> Selecteer een item </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bbffadc040d79a90f05c750b360e43a0cadce635" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{item}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7019a152e8d22b2f5e661e24563dca3c8b0b3fff" datatype="html">
+        <source> Niveau parlé * </source>
+        <target> Spokeniveau * </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f7786a73848de1ec8e54d72ba964513d58bd2f50" datatype="html">
+        <source> Niveau écrit * </source>
+        <target> Schrijfniveau * </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e5fb473b6f19a76d305907f36b243c683d31038" datatype="html">
+        <source> Niveau compréhension * </source>
+        <target> Begrijpingsniveau * </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e173f02039a2041d02bbe5810a047de6db1f1e9e" datatype="html">
+        <source>enregistrer</source>
+        <target>Registreer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d84b5403dc8eed6a4517abf4cd05f9649dc03119" datatype="html">
+        <source>Nombre de langue</source>
+        <target>Aantal talen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

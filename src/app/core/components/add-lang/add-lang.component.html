@@ -1,0 +1,62 @@
+<div class="container-fluid mt-2">
+  <div class="row">
+    <div class="col-12">
+      <h5 class="bold" i18n>Ajouter une langue</h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-8">
+      <form action="" [formGroup]="langueForm">
+        <div class="row mt-2">
+          <div class="col-6">
+            <label for="" i18n> Choisir une langue * </label>
+            <select name="" id="" class="form-control" formControlName="intitule" (change)="changeLangue($event)">
+              <option value="" i18n> Selectionner un élément </option>
+              <option *ngFor="let item of langues" [ngValue]="item" i18n>{{item}}</option>
+            </select>
+
+          </div>
+          <div class="col-6">
+            <label for="" i18n> Niveau parlé * </label>
+            <select name="" id="" class="form-control" formControlName="parle" (change)="changeParle($event)">
+              <option value="" i18n> Selectionner un élément </option>
+              <option *ngFor="let item of niveau" [ngValue]="item" i18n>{{item}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-6">
+            <label for="" i18n> Niveau écrit * </label>
+            <select name="" id="" class="form-control" formControlName="ecrit" (change)="changeEcrit($event)">
+              <option value="" i18n> Selectionner un élément </option>
+              <option *ngFor="let item of niveau" [ngValue]="item" i18n>{{item}}</option>
+            </select>
+          </div>
+          <div class="col-6">
+            <label for="" i18n> Niveau compréhension * </label>
+            <select name="" id="" class="form-control" formControlName="comprehension" (change)="changeComprehension($event)">
+              <option value="" i18n> Selectionner un élément </option>
+              <option *ngFor="let item of niveau" [ngValue]="item" i18n>{{item}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-6">
+            <button class="btn btn-primary" i18n (click)="addLangue()" [disabled]="langueForm.invalid">enregistrer</button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+    <div class="col-4">
+      <div class="card text-white text-center bg-primary mb-3 mt-5" >
+        <div class="card-body">
+          <h5 class="card-title" i18n>Nombre de langue</h5>
+          <p class="card-text">{{nombreLangue}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
