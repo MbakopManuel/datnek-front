@@ -9,9 +9,10 @@
     "e2e": "ng e2e",
     "build": "ng build --prod",
     "extract": "ng xi18n --output-path=src/locale",
-    "start:fr": "npm start -- --configuration=fr --port 4201",
+    "start:fr": "npm start -- --configuration=fr --port 4200",
     "start:en": "npm start -- --configuration=en --port 4201",
     "start:nl": "npm start -- --configuration=nl --port 4202",
+    "start:all": "npm run start:nl; npm run start:fr; npm run start:en",
     "build:i18n": "npm run build -- --localize"
   },
   "private": true,

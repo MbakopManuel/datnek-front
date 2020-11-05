@@ -20,6 +20,7 @@
       </trans-unit>
       <trans-unit id="eed78103bc1c7eda122c689f663ab9230db30dd3" datatype="html">
         <source>Nèerlandais</source>
+        <target>Nederlands</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/header/header.component.html</context>
           <context context-type="linenumber">8</context>
@@ -41,6 +42,7 @@
       </trans-unit>
       <trans-unit id="1d975f9e1a7744f6a64dc50ad268d69ba91999ed" datatype="html">
         <source>Liste des langues</source>
+        <target>List of languages</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
           <context context-type="linenumber">4</context>
@@ -55,6 +57,7 @@
       </trans-unit>
       <trans-unit id="0b9bd351583fe84b0395ea04f85be16c9eb1863d" datatype="html">
         <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Niveau parlé:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.parle}}"/> </source>
+        <target> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Speaking level:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.parle}}"/> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
           <context context-type="linenumber">12</context>
@@ -62,6 +65,7 @@
       </trans-unit>
       <trans-unit id="ba8ab5f5723f63fe32ce140fda58033cf0845896" datatype="html">
         <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Niveau écrit:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.ecrit}}"/>  </source>
+        <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Writing level:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.ecrit}}"/>  </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
           <context context-type="linenumber">13</context>
@@ -69,6 +73,7 @@
       </trans-unit>
       <trans-unit id="7b4eba1592bc19963bedbe42716b3142a7a5b57c" datatype="html">
         <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Niveau compréhension:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.comprehension}}"/>  </source>
+        <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Comprehension level:<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> <x id="INTERPOLATION" equiv-text="{{langue.comprehension}}"/>  </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
           <context context-type="linenumber">14</context>
@@ -84,6 +89,15 @@
           <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
         <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
       </source>
+      <target>
+        <x id="START_TAG_DIV_1" ctype="x-div" equiv-text="&lt;div&gt;"/>
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/>
+            <x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button&gt;"/>Edit<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+            <x id="START_TAG_BUTTON_1" ctype="x-button" equiv-text="&lt;button&gt;"/>Detail<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+            <x id="START_TAG_BUTTON_2" ctype="x-button" equiv-text="&lt;button&gt;"/>Delete<x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/>
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+      </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/list-lang/list-lang.component.html</context>
           <context context-type="linenumber">15</context>
@@ -91,6 +105,7 @@
       </trans-unit>
       <trans-unit id="43160fd76dc89e3bf2105eec4942ddeb0ca2eab2" datatype="html">
         <source>Ajouter une langue</source>
+        <target>Add language</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
           <context context-type="linenumber">4</context>
@@ -98,6 +113,7 @@
       </trans-unit>
       <trans-unit id="68cd64fc1e5ffefa81bd8cd4b2f90adec895f7dd" datatype="html">
         <source> Choisir une langue * </source>
+        <target> Choose language * </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
           <context context-type="linenumber">13</context>
@@ -105,6 +121,7 @@
       </trans-unit>
       <trans-unit id="c868dc3d66edb2d49770b504071f6b46eff63179" datatype="html">
         <source> Selectionner un élément </source>
+        <target> Select element </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
           <context context-type="linenumber">15</context>
@@ -143,6 +160,7 @@
       </trans-unit>
       <trans-unit id="7019a152e8d22b2f5e661e24563dca3c8b0b3fff" datatype="html">
         <source> Niveau parlé * </source>
+        <target> Speaking level * </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
           <context context-type="linenumber">20</context>
@@ -150,6 +168,7 @@
       </trans-unit>
       <trans-unit id="f7786a73848de1ec8e54d72ba964513d58bd2f50" datatype="html">
         <source> Niveau écrit * </source>
+        <target> writing level * </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
           <context context-type="linenumber">29</context>
@@ -157,6 +176,7 @@
       </trans-unit>
       <trans-unit id="7e5fb473b6f19a76d305907f36b243c683d31038" datatype="html">
         <source> Niveau compréhension * </source>
+        <target> Comprehension level * </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
           <context context-type="linenumber">36</context>
@@ -164,6 +184,7 @@
       </trans-unit>
       <trans-unit id="e173f02039a2041d02bbe5810a047de6db1f1e9e" datatype="html">
         <source>enregistrer</source>
+        <target>Save</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
           <context context-type="linenumber">45</context>
@@ -171,6 +192,7 @@
       </trans-unit>
       <trans-unit id="d84b5403dc8eed6a4517abf4cd05f9649dc03119" datatype="html">
         <source>Nombre de langue</source>
+        <target>Language number</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/components/add-lang/add-lang.component.html</context>
           <context context-type="linenumber">54</context>

@@ -67,13 +67,19 @@
               ]
             },
             "fr": {
-              "localize": ["fr"]
+              "localize": [
+                "fr"
+              ]
             },
             "en": {
-              "localize": ["en"]
+              "localize": [
+                "en"
+              ]
             },
             "nl": {
-              "localize": ["nl"]
+              "localize": [
+                "nl"
+              ]
             }
           }
         },
@@ -153,6 +159,10 @@
           "nl": "src/locale/messages.nl.xlf"
         }
       }
-    }},
-  "defaultProject": "datnek"
+    }
+  },
+  "defaultProject": "datnek",
+  "cli": {
+    "analytics": false
+  }
 }

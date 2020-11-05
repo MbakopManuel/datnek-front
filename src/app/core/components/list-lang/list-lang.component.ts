@@ -13,7 +13,7 @@ export class ListLangComponent implements OnInit {
   @Input() langues: Langue[];
   @Output('deleted') deleted = new EventEmitter<Boolean>()
   @Output('opened') opened = new EventEmitter<Boolean>()
-  _langue: Langue;
+  _langue: Langue  = new Langue("", "", "", "");
   constructor(private langueService: LangueServiceService) { }
 
   ngOnInit(): void {
