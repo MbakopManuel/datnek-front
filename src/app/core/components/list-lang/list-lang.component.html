@@ -16,8 +16,8 @@
         <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group" role="group" aria-label="First group">
             <button type="button" class="btn btn-success active" >Modifier</button>
-            <button type="button" class="btn btn-warning" >Détail</button>
-            <button type="button" class="btn btn-danger" >Supprimer</button>
+            <button type="button" class="btn btn-warning" (click)="modal(langue)" data-toggle="modal" data-target="#detailModal">Détail</button>
+            <button type="button" class="btn btn-danger" (click) = "delete(langue._id)">Supprimer</button>
           </div>
         </div>
       </div>
@@ -27,4 +27,23 @@
   </div>
 
 
+</div>
+
+<div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="detail" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="detail">Detail</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModal()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div  i18n> {{_langue.intitule}} </div>
+        <div i18n> <b class="text-bold">Niveau parlé:</b> {{_langue.parle}} </div>
+        <div i18n> <b class="text-bold">Niveau écrit:</b> {{_langue.ecrit}}  </div>
+        <div i18n> <b class="text-bold">Niveau compréhension:</b> {{_langue.comprehension}}  </div>
+      </div>
+    </div>
+  </div>
 </div>
