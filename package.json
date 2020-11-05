@@ -4,10 +4,15 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build": "ng build --prod",
+    "extract": "ng xi18n --output-path=src/locale",
+    "start:fr": "npm start -- --configuration=fr --port 4201",
+    "start:en": "npm start -- --configuration=en --port 4201",
+    "start:nl": "npm start -- --configuration=nl --port 4202",
+    "build:i18n": "npm run build -- --localize"
   },
   "private": true,
   "dependencies": {
