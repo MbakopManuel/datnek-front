@@ -14,19 +14,19 @@ export class LangueServiceService {
   /**
    * récupération de toutes les langues
    */
-  public  getLangues(): Observable<Langue[]>{
-      return this.http.get<Langue[]>(`${LINK._langue_all}`);
+  public  getLangues(): Observable<any>{
+      return this.http.get<any>(`${LINK._langue_all}`);
   }
 
   /**
    * ajout d'une langue et de ses performances
-   * @param data 
+   * @param data
    */
-  public addLangue(data){
-      return this.http.post(LINK._langue_all, data);
+  public addLangue(data): Observable<any>{
+      return this.http.post<any>(LINK._langue_all, data);
   }
 
   public delete(id){
-    return this.http.delete(`${LINK._langue_all}/${id}`)
+    return this.http.delete<any>(`${LINK._langue_all}/${id}`)
   }
 }

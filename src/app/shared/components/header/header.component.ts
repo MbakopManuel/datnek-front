@@ -8,6 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   langue: string = "Français";
+  @Input() modal;
+
   constructor() { }
 
   ngOnInit(): void {
