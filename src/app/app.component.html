@@ -1,5 +1,5 @@
-<app-header></app-header>
+<app-header ></app-header>
 <hr>
-<app-add-lang (langue)="addLangue($event)" (nombreLangue)="langues.length"></app-add-lang>
+<app-add-lang (langue)="addLangue($event)" [nombreLangue]="langues.length"></app-add-lang>
 <hr>
-<app-list-lang></app-list-lang>
+<app-list-lang *ngIf='langues.length != 0' [langues]="langues" (deleted)="deleteLangue($event)"></app-list-lang>

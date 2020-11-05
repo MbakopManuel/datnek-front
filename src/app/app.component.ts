@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Langue } from './shared/models/langue.model';
+import { LangueServiceService } from './shared/services/langue-service.service';
 
 @Component({
   selector: 'app-root',
@@ -11,11 +12,41 @@ export class AppComponent {
 
   langue: Langue
   langues: Langue[]
-
-  addLangue(event): void{
-    this.langue = event
+  
+  constructor(private langueService: LangueServiceService){
+    this.getLangues()
   }
 
+  /**
+   * ajout d'une langue
+   * @param event 
+   */
+  addLangue(event): void{
+    this.langue = event
+    this.langueService.addLangue(this.langue)
+                      .subscribe((lang) => {
+                          this.langue = lang.data;
+                          this.getLangues()
+                      })
+  }
+
+  /**
+   * récupération de toutes les langue
+   */
+  getLangues(): void{
+      this.langueService.getLangues()
+                        .subscribe( langs => {
+                            this.langues = langs.data;
+                        }, error =>{
+                            console.log(error);
+                        })
+  }
+
+  deleteLangue(event): void{
+      if(event === true){
+        this.getLangues()
+      }
+  }
 
 
 }
